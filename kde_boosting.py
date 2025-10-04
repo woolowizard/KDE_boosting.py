@@ -11,6 +11,10 @@ class KDE_boosting:
     def __init__(self):
         pass
     
+    def compute_h(self) -> float:
+        ''' TBD '''
+        pass
+        
     def compute_f(self, h: float, x: float, weights: np.array, index: int, X: np.array) -> float:
                     
         ''' function that return density estimation for a generic point x 
